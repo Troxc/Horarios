@@ -7,6 +7,7 @@
 
 @section('contenido2')
     <div class="container">
+        <h3>MI FORMULAR</h3>
 
         @foreach ($errors->all() as $error)
             <li>
