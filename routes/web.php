@@ -32,7 +32,7 @@ Route::post('/puestos.destroy/{puesto}', [PuestoController::class, 'destroy'])->
 //route::resource('puestos', PuestoController::class);
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
 });
 
 Route::get('/dashboard', function () {
